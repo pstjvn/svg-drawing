@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>svg-drawing demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../../paper-button/paper-button.html">
+
+    <link rel="import" href="../svg-drawing.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container centered">
+      <h3>Basic svg-drawing Demo</h3>
+      <demo-snippet>
+        <template>
+          <svg-drawing auto duration="2000">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+              <g>
+              	<path style="fill: none; fill-rule: evenodd; stroke: #000000; stroke-width: 2px; stroke-linecap: round; stroke-linejoin: round; stroke-opacity: 1;" d="M39.509,2.11l-17.54,17.718l17.719,17.54l-1.969,1.969L20,21.797L2.46,39.516l-1.968-1.969l17.539-17.719L0.312,2.288 L2.282,0.32L20,17.859L37.54,0.141L39.509,2.11z"/>
+              </g>
+            </svg>
+          </svg-drawing>
+
+          <svg-drawing auto duration="600">
+          	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+              <path style="fill: none; stroke-width: 2px; stroke: red;" d="M8.583,18.75L17.292 27.458 31.834 12.917 "></path>
+            </svg>
+          </svg-drawing>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
