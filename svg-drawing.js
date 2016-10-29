@@ -128,8 +128,7 @@
         },
         progress: {
           type: Number,
-          value: 1,
-          observer: '_setProgress'
+          value: 1
         },
         auto: {
           type: Boolean,
@@ -178,7 +177,7 @@
       }
     }
 
-    _setProgress(p) {
+    setProgress(p) {
       if (this._animation != null) {
         this._animation.progress = p;
       }
